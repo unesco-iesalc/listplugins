@@ -1,7 +1,7 @@
 # listplugins
 Moodle tool that list in command line all the dirs where are plugins located. Useful for automate upgrades
 
-This is an example of a sh script tha uses this plugin;
+This is an example of a bash script tha uses this plugin;
 ```bash
 newmoodledir=/home/cvicente/moodledev/moodlenew
 moodledir=/home/cvicente/moodledev/moodle
