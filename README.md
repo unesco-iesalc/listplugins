@@ -3,8 +3,8 @@ Moodle tool that list in command line all the dirs where are plugins located. Us
 
 This is an example of a bash script tha uses this plugin;
 ```bash
-newmoodledir=/home/cvicente/moodledev/moodlenew
-moodledir=/home/cvicente/moodledev/moodle
+newmoodledir=/var/www/moodlenew
+moodledir=/var/www/moodle
 php $moodledir/local/listplugins/list.php --list >plugin.lst
 while read line;do
 newline=${line/$moodledir/$newmoodledir}
